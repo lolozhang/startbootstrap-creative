@@ -4,10 +4,13 @@ header.masthead {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: white;
-  background-image: url('../img/header.jpg');
+  color: pink;
+  background-image: url('../img/dribbble-hello.gif');
   background-position: center;
-  @include background-cover;
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-top: 120px;
+  /*@include background-cover;*/
   .header-content {
     position: relative;
     width: 100%;
@@ -19,7 +22,7 @@ header.masthead {
         font-weight: 700;
         margin-top: 0;
         margin-bottom: 0;
-        text-transform: uppercase;
+        text-transform: none;
       }
       hr {
         margin: 30px auto;

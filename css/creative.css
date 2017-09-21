@@ -146,13 +146,13 @@ header.masthead {
   width: 100%;
   min-height: auto;
   text-align: center;
-  color: white;
-  background-image: url("../img/header.jpg");
+  color: pink;
+  background-image: url("../img/dribbble-hello.gif");
   background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-top: 120px;
+  /*@include background-cover;*/ }
   header.masthead .header-content {
     position: relative;
     width: 100%;
@@ -163,7 +163,7 @@ header.masthead {
       font-weight: 700;
       margin-top: 0;
       margin-bottom: 0;
-      text-transform: uppercase; }
+      text-transform: none; }
     header.masthead .header-content .header-content-inner hr {
       margin: 30px auto; }
     header.masthead .header-content .header-content-inner p {
